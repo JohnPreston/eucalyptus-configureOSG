@@ -1,0 +1,17 @@
+---
+galaxy_info:
+  author: John Mille
+  description: Role to configure Eucalyptus OSG
+  company: Eucalyptus
+  min_ansible_version: 1.6
+  platforms:
+  - name: EL
+    versions:
+    - 6
+  categories:
+  - cloud
+  - cloud:ec2
+  - clustering
+dependencies:
+- JohnPreston.eucalyptus-credentials
+

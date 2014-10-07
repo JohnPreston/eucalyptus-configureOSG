@@ -1,0 +1,9 @@
+################################################
+#
+# OSG Properties
+#
+#osg_properties:
+#- {'name': 'objectstorage.s3provider.s3endpoint', 'value': 'endpoint'}
+#- {'name': 'objectstorage.s3provider.s3accesskey', 'value': 'access_key'}
+#- {'name': 'objectstorage.s3provider.s3secretkey', 'value': 'secret_key'}
+#
