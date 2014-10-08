@@ -5,6 +5,10 @@
 
 - name: Configure OSG provider
   shell: source "{{ euca_admin_creds_path }}/eucarc" ; euca-modify-property -p "{{ osg_provider_property }}={{ osg_provider_name }}"
+  register: osg_result
+  until: osg_result.stdout.find("was") != -1
+  retries: 20
+  delay: 5
   tags:
   - osg_config
 

@@ -1,4 +1,5 @@
 ---
 # defaults file for eucalyptus-configureOSG
 
+osg_provider_property: objectstorage.providerclient
 osg_properties: []
