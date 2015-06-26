@@ -3,3 +3,4 @@
 
 osg_provider_property: objectstorage.providerclient
 osg_properties: []
+osg_provider_name: walrus
